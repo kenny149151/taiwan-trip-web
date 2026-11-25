@@ -21,3 +21,6 @@
 @media print{.share-actions,.share-url-label,.share-url,.header-actions{display:none!important}.share-grid{display:block}.qr-card{width:200px;margin-top:20px}}
 
 .guide-links button{font:inherit;color:inherit;background:none;border:0;padding:0;text-decoration:underline;text-underline-offset:4px;cursor:pointer}.guide-links button[aria-pressed="true"]{font-weight:700}
+
+/* Readable dates and longer coastal route labels. */
+.hero h1{white-space:normal}.brand small{font-size:11px}.day-tab small{line-height:1.65}.route-map text{font-family:var(--sans)}

@@ -1,11 +1,33 @@
-# 慢慢宜蘭｜台北與宜蘭四天三夜
+# 慢慢東遊｜四天三夜自駕旅遊 App
 
-[開啟完整互動旅遊App](https://htmlpreview.github.io/?https://github.com/kenny149151/taiwan-trip-web/blob/web-app/index.html)
+公開互動網站：
+https://htmlpreview.github.io/?https://github.com/kenny149151/taiwan-trip-web/blob/web-app/index.html
 
-這個公開連結顯示照片、完整排版、每日路線、導航及可調整預算，無需登入。頁首可切換繁體／简体，選擇保存在各自的瀏覽器。
+原始碼：本 repository 的 `web-app` 分支。
 
-網站使用公開GitHub檔案，由HTML Preview呈現；GitHub Pages原生部署仍受服務異常影響。
+## 路線
 
-來源分支：web-app。圖片出處及授權見 ATTRIBUTION.txt；海岸主視覺明確標示AI情境圖。
+- 2026/12/29：桃園取車 → 十分 → 九份 → 基隆；廟口小吃晚餐。
+- 12/30：基隆 → 七星潭 → 花蓮；東大門小吃晚餐。
+- 12/31：花蓮 → 崇德／清水斷崖 → 蘇澳瓏山林；私湯、晚餐與倒數。
+- 2027/1/1：蘇澳 → 桃園還車 → 香港。
 
-本機預覽：`python3 -m http.server 4174`。
+去程依旅客提供訂單：CX488，12/29 HKG08:00 → TPE09:40（UTC+8）；回程未確認。沒有上傳訂單截圖、訂位識別碼、旅客姓名或會員資料。
+
+## 功能
+
+繁體／簡體切換、每日與雨備路線、選項與預算瀏覽器儲存、Google Maps自駕導航、補訪十分自動順延七星潭、逐站停車資料、可編輯雙人預算、純文字匯出與列印、免登入分享與可下載QR卡。
+
+全程估650–800km；含花蓮須接受較長移動。七星潭部分停車區施工，崇德僅按當日開放範圍參觀；道路、飯店與營業需再確認。金額除明列官方資料外均為估算。未代辦任何預訂。
+
+## 本機使用
+
+Python3：`python3 -m http.server 4174`，瀏覽 `http://localhost:4174`。直接開HTML亦可閱讀，但儲存及下載視瀏覽器政策而定。無建置或伺服器依賴；字型可連外載入，失敗時使用系統字型。
+
+## 分享與部署
+
+請分享上方完整HTML Preview連結或 `app-share-card.png`。GitHub原始檔／README預覽是原始碼入口，不是完整App。原生GitHub Pages曾因平台故障回404，未確認恢復前不以其作QR目標。
+
+公開Sites備用站：https://yilan-slow-newyear-2027-kingyu.kingyu-chen21.chatgpt.site
+
+QR為確定性產生並解碼核對；沒有追蹤、登入、定位或日曆存取。資料各自留在瀏覽器，不跨裝置同步。來源及照片授權見 `ATTRIBUTION.txt` 和頁尾。

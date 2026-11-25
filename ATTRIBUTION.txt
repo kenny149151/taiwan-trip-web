@@ -1,1 +1,13 @@
-Image credits and licenses are in the repository README and the website footer. These are the travel app required scenery assets.
+Hero: ImageGen AI coastal mood illustration, not a specific hotel or landmark photograph.
+jiufen.jpg: Shinji, 2014, CC BY 2.0. Resized; CSS crop.
+https://commons.wikimedia.org/wiki/File:2014-06-25_Jiufen_Old_Street.jpg
+https://creativecommons.org/licenses/by/2.0/
+qixingtan.jpg: Artemas Liu, 2021, CC BY-SA 2.0. Resized; CSS crop. Asset retains its license.
+https://commons.wikimedia.org/wiki/File:Qixingtan_Beach,_Taiwan.jpg
+https://creativecommons.org/licenses/by-sa/2.0/
+qingshui.jpg: Huaiwun, 2021, CC BY-SA 4.0. Resized; CSS crop. Asset retains its license.
+https://commons.wikimedia.org/wiki/File:Taroko_National_Park_Qingshui_Cliff_(Huaiwun).jpg
+https://creativecommons.org/licenses/by-sa/4.0/
+Historical photographs do not prove current road or viewpoint accessibility.
+OpenCC JavaScript dependencies retain their included licenses.
+QR code and miniature wave logo generated deterministically using code.
