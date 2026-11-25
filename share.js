@@ -1,6 +1,23 @@
 (() => {
-  const repository='https://kenny149151.github.io/taiwan-trip-web/';
+  const repository='https://htmlpreview.github.io/?https://github.com/kenny149151/taiwan-trip-web/blob/web-app/index.html';
   const status=document.querySelector('#share-status');
+  document.querySelector('#github-share-url').value=repository;
+  document.querySelector('#open-github').href=repository;
+  if(location.hostname==='htmlpreview.github.io'){
+    const localTarget=link=>{
+      try{const raw=link.getAttribute('href')||'';const u=new URL(link.href,location.href);
+        if(!u.hash||!(raw.startsWith('#')||u.origin===location.origin))return null;
+        return document.getElementById(decodeURIComponent(u.hash.slice(1)));
+      }catch{return null;}
+    };
+    document.querySelectorAll('a[href]').forEach(link=>{const target=localTarget(link);if(target)link.href=repository+'#'+target.id;});
+    document.addEventListener('click',event=>{
+      const link=event.target.closest('a[href]');if(!link)return;
+      const target=localTarget(link);if(!target)return;
+      event.preventDefault();target.scrollIntoView({behavior:'smooth',block:'start'});
+      history.replaceState(null,'',repository+'#'+target.id);
+    });
+  }
   const say=text=>{status.textContent=text;window.travelLanguage?.refresh();};
   document.querySelector('#copy-github').addEventListener('click',async()=>{
     try{await navigator.clipboard.writeText(repository);say('網站連結已複製，旅伴可直接開啟，無需登入。');}

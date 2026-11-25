@@ -1,11 +1,11 @@
-# 台北與宜蘭跨年自駕 App
+# 慢慢宜蘭｜台北與宜蘭四天三夜
 
-繁體／简体中文，四日自駕路線、住宿餐廳、停車費、導航及可編輯預算。
+[開啟完整互動旅遊App](https://htmlpreview.github.io/?https://github.com/kenny149151/taiwan-trip-web/blob/web-app/index.html)
 
-此為可公開的網站檔案，沒有私人日曆、帳戶憑證或Sites專案設定。原始私人儲存庫保持私人。
+這個公開連結顯示照片、完整排版、每日路線、導航及可調整預算，無需登入。頁首可切換繁體／简体，選擇保存在各自的瀏覽器。
 
-## 發佈
+網站使用公開GitHub檔案，由HTML Preview呈現；GitHub Pages原生部署仍受服務異常影響。
 
-GitHub Pages：main分支，根目錄。網址與QR已準備為 https://kenny149151.github.io/taiwan-trip-web/ 。
+來源分支：web-app。圖片出處及授權見 ATTRIBUTION.txt；海岸主視覺明確標示AI情境圖。
 
-本機：`python3 -m http.server 4174`。圖片來源及授權見 ATTRIBUTION.txt；主視覺已標明AI情境圖。
+本機預覽：`python3 -m http.server 4174`。

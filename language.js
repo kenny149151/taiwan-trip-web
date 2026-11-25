@@ -50,7 +50,7 @@
   function set(next){
     language=next;
     try{localStorage.setItem('yilan-language',language);}catch{}
-    const url=new URL(location.href);url.searchParams.set('lang',language);history.replaceState(null,'',url);
+    if(location.hostname!=='htmlpreview.github.io'){const url=new URL(location.href);url.searchParams.set('lang',language);history.replaceState(null,'',url);}
     refresh();
   }
   document.querySelectorAll('[data-language]').forEach(button=>button.addEventListener('click',()=>set(button.dataset.language)));
