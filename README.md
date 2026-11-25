@@ -1,7 +1,7 @@
 # 慢慢東遊｜四天三夜自駕旅遊 App
 
 公開互動網站：
-https://htmlpreview.github.io/?https://github.com/kenny149151/taiwan-trip-web/blob/web-app/index.html
+https://kenny149151.github.io/taiwan-trip-web/
 
 原始碼：本 repository 的 `web-app` 分支。
 
@@ -26,7 +26,7 @@ Python3：`python3 -m http.server 4174`，瀏覽 `http://localhost:4174`。直�
 
 ## 分享與部署
 
-請分享上方完整HTML Preview連結或 `app-share-card.png`。GitHub原始檔／README預覽是原始碼入口，不是完整App。原生GitHub Pages曾因平台故障回404，未確認恢復前不以其作QR目標。
+請分享上方原生GitHub Pages網址或 `app-share-card.png`，不需任何帳號。GitHub原始檔／README預覽是原始碼入口。Pages從 `web-app` 分支根目錄發布。
 
 公開Sites備用站：https://yilan-slow-newyear-2027-kingyu.kingyu-chen21.chatgpt.site
 

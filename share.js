@@ -1,5 +1,5 @@
 (() => {
-  const repository='https://htmlpreview.github.io/?https://github.com/kenny149151/taiwan-trip-web/blob/web-app/index.html';
+  const repository='https://kenny149151.github.io/taiwan-trip-web/';
   const status=document.querySelector('#share-status');
   document.querySelector('#github-share-url').value=repository;
   document.querySelector('#open-github').href=repository;
@@ -25,7 +25,7 @@
   });
   document.querySelector('#native-share').addEventListener('click',async()=>{
     try{
-      if(navigator.share){await navigator.share({title:'慢慢宜蘭｜台北與宜蘭自駕手帖',text:window.travelLanguage?.format('繁體／簡體旅遊App；直接開啟，無需登入。'),url:repository});say('分享已完成。');}
+      if(navigator.share){await navigator.share({title:'慢慢東遊｜山城小吃與花蓮海岸',text:window.travelLanguage?.format('繁體／簡體旅遊App；直接開啟，無需登入。'),url:repository});say('分享已完成。');}
       else document.querySelector('#copy-github').click();
     }catch(error){if(error.name!=='AbortError')say('請使用複製連結或下載QR分享卡。');}
   });

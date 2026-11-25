@@ -7,6 +7,7 @@
 - SUV及花蓮住宿選擇會更新油資、預算和導航；自訂預算、繁簡語言可在重新整理後保留。
 - 預設雙人含來回機票與香港交通預留NT$72,210；不是即時報價或待付款金額。去程CX488已訂，實付未提供。
 - QR PNG與分享卡均已解碼，目標為完整視覺App：
-  https://htmlpreview.github.io/?https://github.com/kenny149151/taiwan-trip-web/blob/web-app/index.html
+  https://kenny149151.github.io/taiwan-trip-web/
 - 未將訂單截圖、訂位識別碼、姓名、會員資料、私人日曆或Sites憑證放入公開原始碼。
+- 原生GitHub Pages重新發布，分享與QR均改用github.io網址。
 - 公開網絡／微信政策因裝置及地區可能不同，不承諾所有內置瀏覽器均可開啟。
