@@ -11,3 +11,18 @@ https://creativecommons.org/licenses/by-sa/4.0/
 Historical photographs do not prove current road or viewpoint accessibility.
 OpenCC JavaScript dependencies retain their included licenses.
 QR code and miniature wave logo generated deterministically using code.
+
+2026-11-26 snack update sources (full citations also on each card):
+https://newtaipei.travel/zh-tw/shop/detail/207151
+https://supertaste.tvbs.com.tw/hot/358995
+https://smiletaiwan.cw.com.tw/article/567
+https://supertaste.tvbs.com.tw/infocard/20075
+https://supertaste.tvbs.com.tw/infocard/21817
+https://letsplay.tw/a-hua-chaomian2607/
+https://supertaste.tvbs.com.tw/amp/pack/351352
+https://supertaste.tvbs.com.tw/infocard/14527
+https://www.luckyhualien.com/hualienice
+https://bigmouthblog.tw/blog/post/yixin
+https://supertaste.tvbs.com.tw/infocard/16447
+https://supertaste.tvbs.com.tw/infocard/10085 (Wednesday closure: excluded from Dec 30 plan)
+No restaurant or hotel images were copied or generated for this update. Existing licensed landscapes retained.
